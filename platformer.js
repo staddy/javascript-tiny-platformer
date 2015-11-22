@@ -48,7 +48,7 @@
   //-------------------------------------------------------------------------
   
   var MAP      = { tw: 64, th: 48 },
-      //TILE     = 32,
+      TILE     = 32,
       METER    = TILE,
       GRAVITY  = 9.8 * 6, // default (exagerated) gravity
       MAXDX    = 15,      // default max horizontal speed (15 tiles per second)
@@ -78,7 +78,7 @@
       tcell    = function(tx,ty) { return cells[tx + (ty*MAP.tw)]; };
 
   // Constants
-  var TILE = 32;
+  //var TILE = 32;
   var R = 20;
 
   // Level
